@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/c1d2876426.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="overlay"></div>
+        <div class="content-wrapper">
+            <nav class="navbar">
+                <figure class="logo__img--wrapper">
+                    <img class="logo" src="./week4 assets/whitelogo.39850b27.png" alt="">
+                </figure>
+                <ul class="nav__links">
+                    <li class="nav__link">
+                        <a class="nav__link--home" href="#">Home</a>
+                    </li>
+                    <li class="nav__link">
+                        <a class="nav__link--find" href="#">Find Your Car</a>
+                    </li>
+                    <button class="contact__button">CONTACT</button>
+                </ul>
+            </nav>
+            <header>
+                <h1 class="header__title">
+                    Browse Our Cars   
+                </h1>
+                <div class="input-wrap">
+                    <input type="text" placeholder="Search 'fast'" id="search-bar">
+                    <div class="icon-wrap">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+    <section id="search">
+        <div class="search-content">
+            <div class="progress-bar__container">
+                <div class="progress-bar-track"></div>
+                <div class="progress-bar-fill"></div>
+                <div class="progress-bar-buffer"></div>
+            </div>
+            <div class="search-filter">
+                <h1><span class="black-text">Search Results:</span></h1>
+            </div>
+            <div id="cars">
+                <div class="car__container">
+                    <div class="loading-state">
+                        <i class="fa-solid fa-spinner spinner"></i>
+                    </div>
+                    <div class="poster-container">
+
+                        <!-- <img class="poster" src="https://m.media-amazon.com/images/M/MV5BZGRiMDE1NTMtMThmZS00YjE4LWI1ODQtNjRkZGZlOTg2MGE1XkEyXkFqcGc@._V1_SX300.jpg" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
