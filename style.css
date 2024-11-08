@@ -317,6 +317,14 @@ input:focus {
     padding: 20px 75px
   }
 
+  .search-term {
+    color: #6030b1;
+    padding: 20px 0;
+    font-size: 28px;
+    line-height: 1.25;
+    display: inline-block;
+  }
+
 
 /* .progress-bar,
 .progress-bar-intermediate,

@@ -53,6 +53,7 @@ async function fetchPosters(searchTerm) {
 function searchMovies() {
     const searchTerm = searchBar.value.trim();  // Get the search term from the input field
     if (searchTerm) {  // Only search if there's a term
+      document.querySelector('.search-term').textContent = `for "${searchTerm}"`;  
       fetchPosters(searchTerm);
     }
 }
